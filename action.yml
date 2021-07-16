@@ -1,0 +1,15 @@
+  name: '.env From Secret'
+  description: 'Github Action to create a .env file from a secret'
+  author: 'Alek Angelov'
+  branding:
+    icon: 'play'
+    color: 'gray-dark'
+  inputs:
+    content: 
+      description: 'The content of the envfile'
+      default: ''
+    filename:
+      description: 'The filename for the envfile'
+      default: '.env'
+  runs:
+    using: 'node16'
