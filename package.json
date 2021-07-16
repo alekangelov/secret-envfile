@@ -5,5 +5,9 @@
   "main": "index.js",
   "repository": "git@github.com:alekangelov/secret-envfile.git",
   "author": "Alek Angelov <alek.angelov.sk@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0"
+  }
 }
