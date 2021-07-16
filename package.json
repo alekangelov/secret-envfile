@@ -1,0 +1,9 @@
+{
+  "name": "secret-envfile",
+  "version": "1.0.0",
+  "description": "Github Action to create a .env file from a secret",
+  "main": "index.js",
+  "repository": "git@github.com:alekangelov/secret-envfile.git",
+  "author": "Alek Angelov <alek.angelov.sk@gmail.com>",
+  "license": "MIT"
+}
