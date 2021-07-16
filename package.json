@@ -6,8 +6,14 @@
   "repository": "git@github.com:alekangelov/secret-envfile.git",
   "author": "Alek Angelov <alek.angelov.sk@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "yarn ncc build index.js --license licenses.txt"
+  },
   "dependencies": {
     "@actions/core": "^1.4.0",
     "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.29.0"
   }
 }
