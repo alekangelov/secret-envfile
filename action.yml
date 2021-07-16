@@ -12,5 +12,5 @@
       description: 'The filename for the envfile'
       default: '.env'
   runs:
-    using: 'node16'
+    using: 'node12'
     main: 'index.js'
