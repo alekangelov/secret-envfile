@@ -9,7 +9,7 @@ module.exports = () => {
         if (!path) throw new Error("Can't get Github Workspace")
         console.log(`${path}/${FILENAME}`);
         fs.writeFileSync(`${path}/${FILENAME}`, CONTENT);
-        core.setOutput(".env GENERATED SUCCESSFULLY")
+        core.info(".env GENERATED SUCCESSFULLY")
     } catch (error) {
         core.setFailed(error.message);
     }
